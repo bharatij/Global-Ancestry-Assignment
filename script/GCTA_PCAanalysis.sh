@@ -1,4 +1,6 @@
 #!/bin/bash
+#Extract high quality snps (Autosomes_1KGP3_LD_pruned_maf0.05_HC_SNP_List_hg38.keep) from 1KG and target sample set snp data 
+#Keep common set of snps in 1KG and target sample set to use in the GCTA pipeline as follows
 
 gcta64 --bfile Autosomes.1KG.shapeit2_integrated_snvindels_v2a_27022019.GRCh38.Aligned.HC_SNPs.maf0.05.commonsnps \
        --autosome \
