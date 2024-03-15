@@ -6,3 +6,6 @@ sh script/GCTA_PCAanalysis.sh
 
 ## 2. Global ancestry ineference using Random Forest Classifier
 Rscript script/AncestryInference.R
+
+
+Cite the code: [![DOI](https://zenodo.org/badge/617596047.svg)](https://zenodo.org/doi/10.5281/zenodo.10820994)
